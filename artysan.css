@@ -139,7 +139,7 @@ body{
     border-radius: 30px;
     background-image: linear-gradient(to right, rgb(129, 240, 255), rgb(244, 253, 109), rgb(243, 150, 63), rgb(194, 84, 194));
     background-size: 400% 400%;
-    animation: gradient 15s linear infinite alternate;
+    animation: gradient 30s linear infinite alternate;
 }
 
 #portfolio a{
@@ -204,8 +204,12 @@ body{
     font-size: 40px;
 }
 
+.rightWork h4{
+    font-weight: bolder;
+}
+
 .rightWork p{
-    margin: -4% auto 5%;
+    margin: -4.5% auto 5%;
 }
 
 #serviceLink{
@@ -440,22 +444,22 @@ body{
     
     #skewed{
         background-color: rgb(5, 28, 105);
-        opacity: 0.85;
+        opacity: 0.9;
         z-index: 0;
         height: 80px;
-        width: 46%;
+        width: 50%;
         margin: auto;
         transform: skew(15deg);
     }
     
     #skewed p{
         margin: -32% auto;
-        font-size: 40px;
+        font-size: 44px;
         font-weight:bold;
         z-index: 1;
         position: absolute;
-        width: 116%;
-        margin-left: -3.5%;
+        width: 122%;
+        margin-left: -6.5%;
         padding-top: 32%;
     }
     
