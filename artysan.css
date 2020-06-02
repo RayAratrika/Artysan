@@ -432,7 +432,7 @@ body{
     }
 
     .imageScreen span{
-        font-size: 52px;
+        font-size: 70px;
         font-weight: bolder;
         color: white;    
     }
@@ -447,20 +447,20 @@ body{
         opacity: 0.9;
         z-index: 0;
         height: 80px;
-        width: 50%;
+        width: 65%;
         margin: auto;
         transform: skew(15deg);
     }
     
     #skewed p{
         margin: -32% auto;
-        font-size: 44px;
+        font-size: 54px;
         font-weight:bold;
         z-index: 1;
         position: absolute;
         width: 122%;
-        margin-left: -6.5%;
-        padding-top: 32%;
+        margin-left: -6.75%;
+        padding-top: 30%;
     }
     
     #portfolio{
