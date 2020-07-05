@@ -36,8 +36,8 @@ body{
 
 .container{
     color:black;
-    background-image: url("https://secureservercdn.net/160.153.137.14/mhq.97f.myftpupload.com/wp-content/uploads/2019/06/IMG-20190329-WA0016__01.jpg");
-    background-size: 100% 720px;
+    background-image: url("./images/main.jpg");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: fixed;
     backface-visibility: hidden;
@@ -54,9 +54,9 @@ body{
 }
 
 .container .navbar img{
-    width: 150px; 
+    width: 120px; 
     height: auto;
-    margin-top: -8%;
+    margin-top: 2%;
     margin-bottom: -16%;
 }
 
@@ -87,7 +87,8 @@ body{
 
 .flex a{
     text-decoration: none;
-    color: white;
+    /* color: rgb(148, 201, 223); */
+    color: rgb(5, 28, 105);
     font-weight: bolder;
 }
 
@@ -100,7 +101,7 @@ body{
 .imageScreen span{
     font-size: 72px;
     font-weight: bolder;
-    color: white;    
+    color: rgb(174, 175, 179);    
 }
 
 #slider{
@@ -110,11 +111,11 @@ body{
 
 #skewed{
     background-color: rgb(5, 28, 105);
-    opacity: 0.85;
+    opacity: 0.90;
     z-index: 0;
     height: 80px;
     width: 44%;
-    margin: auto;
+    margin: -2% auto auto auto;
     transform: skew(15deg);
 }
 
@@ -127,11 +128,12 @@ body{
     margin-left: -7%;
     transform: skew(-15deg);
     width: 114%;
+    color: rgb(174, 175, 179);    
 }
 
 #portfolio{
     display: none;
-    margin: 3.5% auto auto auto;
+    margin: 4% auto auto auto;
     font-size: 22px;
     font-weight: bold;
     width: fit-content;
