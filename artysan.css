@@ -87,8 +87,7 @@ body{
 
 .flex a{
     text-decoration: none;
-    /* color: rgb(148, 201, 223); */
-    color: rgb(5, 28, 105);
+    color: rgb(161, 162, 179);
     font-weight: bolder;
 }
 
@@ -418,6 +417,10 @@ body{
 }
 
 @media screen and (max-width : 770px){ 
+    .container{
+        background-size: 100% 500px;
+    }
+
     .container .navbar img{
         margin-top: 0%;
         width: 170px;
@@ -426,6 +429,10 @@ body{
 
     .leftNavbar{
         width: 30%;
+    }
+
+    .flex{
+        font-size: 26px;
     }
 
     .rightNavbar{
@@ -450,7 +457,7 @@ body{
         z-index: 0;
         height: 80px;
         width: 68%;
-        margin: auto;
+        margin: -8% auto;
         transform: skew(15deg);
     }
     
@@ -467,7 +474,7 @@ body{
     
     #portfolio{
         display: none;
-        margin: 7.5% auto auto auto;
+        margin: 12% auto auto auto;
         font-size: 30px;
         font-weight: bold;
         width: fit-content;
